@@ -49,6 +49,10 @@ li {
   color:white;
 }
 
+a {
+  color:white;
+}
+
 .div {
   margin:auto;
   height:auto;
@@ -207,6 +211,14 @@ li {
 
 #contentOne {
   height:1100px;
+}
+
+#contentTwo {
+  transform:scaleY(-1);
+}
+
+#rowFlip {
+  transform:scaleY(-1);
 }
 
 #questionOne {
@@ -393,6 +405,107 @@ li {
 /
 */
 
+#emailHeading {
+  position:relative;
+  text-align: center;
+  font-size:40px;
+  color:rgba(255, 255, 255, 0.809);
+  margin:auto;
+  background-color: #00000000;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family:monospace, serif;
+}
+
+#emailBody {
+  position:relative;
+  padding:5px;
+  width:100%;
+  text-align:center;
+  color:white;
+  margin:auto;
+  background-color: #00000000;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family:monospace, serif;
+  font-size: 22px;
+}
+
+#emailPic {
+  position:relative;
+  width:90%;
+  height:125px;
+  left:5%;
+}
+
+#phoneHeading {
+  position:relative;
+  text-align:center;
+  font-size:40px;
+  color:rgba(255, 255, 255, 0.809);
+  margin:auto;
+  background-color: #00000000;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family:monospace, serif;
+}
+
+#phoneBody {
+  position:relative;
+  padding:5px;
+  width:100%;
+  text-align:center;
+  color:white;
+  margin:auto;
+  background-color: #00000000;
+  font-family: monospace, serif;
+  text-shadow: 2px 0 #ffffff00, -2px 0 #00000000, 0 2px #00000000, 0 -2px #00000000,
+               1px 1px #ffffff4a, -1px -1px #00000000, 1px -1px #00000000, -1px 1px #00000000;
+  font-size: 22px;
+}
+
+#phonePic {
+  position:relative;
+  padding:5px;
+  width:40%;
+  height:125px;
+  left:30%;
+}
+
+#linkedHeading {
+  position:relative;
+  text-align: center;
+  font-size:40px;
+  color:rgba(255, 255, 255, 0.809);
+  margin:auto;
+  background-color: #00000000;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family:monospace, serif;
+}
+
+#linkedBody {
+  position:relative;
+  width:100%;
+  overflow:hidden;
+  text-align:center;
+  color:white;
+  margin:auto;
+  background-color: #00000000;
+  font-family: monospace, serif;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-size: 22px;
+}
+
+#linkedPic {
+  position:relative;
+  padding:5px;
+  width:40%;
+  height:125px;
+  left:30%;
+}
+
 /* Project HTML
 /
 /
@@ -400,6 +513,162 @@ li {
 /
 /
 */
+
+#contentFour {
+  background-size: 1000px;
+}
+
+#calcHead {
+  position:relative;
+  text-align:center;
+  font-size:40px;
+  color:rgba(255, 255, 255, 0.809);
+  margin:auto;
+  background-color: #00000000;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family:monospace, serif;
+}
+
+#calcPic {
+  position:relative;
+  padding:1px;
+  width:100%;
+  height:300px;
+  border:12px;
+  border-style:solid;
+  border-color:rgb(36, 46, 46);
+}
+
+#calcBody {
+  position:relative;
+  overflow:hidden;
+  padding:5px;
+  text-align:center;
+  color:white;
+  margin:auto;
+  background-color: #00000000;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family:monospace, serif;
+  font-size: 22px;
+}
+
+#fRight {
+  float:right;
+}
+
+#contentFive {
+  background-size:1000px;
+}
+
+#nflHead {
+  position:relative;
+  text-align:center;
+  font-size:40px;
+  color:rgba(255, 255, 255, 0.809);
+  margin:auto;
+  background-color: #00000000;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family:monospace, serif;
+}
+
+#spreadPic {
+  position:relative;
+  padding:1px;
+  width:100%;
+  height:400px;
+  border:12px;
+  border-style:solid;
+  border-color:rgb(36, 46, 46);
+}
+
+#nflBody {
+  position:relative;
+  padding:5px;
+  text-align:center;
+  color:white;
+  margin:auto;
+  background-color: #00000000;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family:monospace, serif;
+  font-size: 22px;
+}
+
+#contentSix {
+  background-size:1300px;
+}
+
+#palletHead {
+  position:relative;
+  text-align:center;
+  font-size:40px;
+  color:rgba(255, 255, 255, 0.809);
+  margin:auto;
+  background-color: #00000000;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family:monospace, serif;
+}
+
+#exInput {
+  position:relative;
+  text-align:center;
+  font-size:16px;
+  color:rgba(255, 255, 255, 0.809);
+  margin:auto;
+  background-color: #00000000;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family:monospace, serif;
+}
+
+#inputPic {
+  position:relative;
+  padding:1px;
+  width:80%;
+  height:400px;
+  border:12px;
+  border-style:solid;
+  border-color:rgb(36, 46, 46);
+}
+
+#exOutput {
+  position:relative;
+  text-align:center;
+  font-size:16px;
+  color:rgba(255, 255, 255, 0.809);
+  margin:auto;
+  background-color: #00000000;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family:monospace, serif;
+}
+
+#palletPic {
+  position:relative;
+  padding:1px;
+  width:80%;
+  height:400px;
+  border:12px;
+  border-style:solid;
+  border-color:rgb(36, 46, 46);
+}
+
+#palletBody {
+  position:relative;
+  padding:5px;
+  text-align:center;
+  color:white;
+  margin:auto;
+  background-color: #00000000;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family:monospace, serif;
+  font-size: 22px;
+}
 
 @media only screen and (min-width: 768px) {
   .col-1 {width: 8.33%;}
@@ -472,6 +741,7 @@ background HTML
 
   #contentOne {
     height:auto;
+    background-size: 255px;
   }
 
   #sluPic {
@@ -531,10 +801,6 @@ background HTML
     }
   }
 
-  #contentOne {
-    background-size:250px;
-  }
-
   #answerTwo {
     font-size: 20px;
     padding:10px;
@@ -559,5 +825,159 @@ background HTML
     width:35%;
     right:45%;
     bottom:17.5%;
+  }
+
+  /*
+  /
+  /
+  /
+  contactHTML
+  / 
+  */
+
+  #contentThree {
+    background-size:750px;
+    width:50%;
+    border:2px;
+    border-style:solid;
+    border-color:white;
+  }
+
+  .line {
+    display:none;
+  }
+
+  #emailPic {
+    height:200px;
+    width:50%;
+    left:25%;
+  }
+
+  #phonePic {
+    height:200px;
+    width:20%;
+    left:40%;
+  }
+
+  #linkedPic {
+    width:15%;
+    left:42.5%;
+  }
+
+  /*ProjectHTML
+  /
+  /
+  /
+  /
+  /
+  */
+
+  #contentFour {
+    width:70%;
+    background-size:350px;
+  }
+
+  #calcHeadHolder {
+    position:relative;
+  }
+
+  #calcHead {
+    width:750px;
+    left:75%;
+  }
+
+  #calcPic {
+    left:45%;
+    top:40px;
+  }
+
+  #calcBodyHolder {
+    position:relative;
+    height:425px;
+    left:12%;
+  }
+
+  #calcBody {
+    top:20%;
+    background-color: rgba(36, 46, 46, 0.401);
+    transform:skew(5deg);
+    text-align:center;
+    font-size:26px;
+    width:60%;
+  }
+
+  #contentFive {
+    width:75%;
+    background-size:450px;
+  }
+
+  #nflHeadHolder {
+    position:relative;
+    height:650px;
+  }
+
+  #nflHead {
+    right:100%;
+  }
+
+  #spreadPic {
+    height:500px;
+    right:30%;
+    width:80%;
+    top:50px;
+  }
+
+  #nflBodyHolder {
+    position:relative;
+    width:55%;
+    left:15%;
+    top:70px;
+  }
+
+  #nflBody {
+    background-color: rgba(36, 46, 46, 0.401);
+    transform:skew(-5deg);
+    text-align:center;
+    font-size:26px;
+    width:100%;
+  }
+
+  #contentSix {
+    width:70%;
+    background-size:1200px;
+  }
+
+  #palletHeadHolder {
+    position:relative;
+    width:75%;
+    left:65%;
+    height:1070px;
+  }
+
+  #palletHead {
+    width:500px;
+    left:50%;
+  }
+
+  #leftForms {
+    position:relative;
+    height:100px;
+    width:350px;
+    top:5%;
+  }
+
+  #palletBodyHolder {
+    position:relative;
+    width:75%;
+    left:25%;
+    top:150px;
+  }
+
+  #palletBody {
+    background-color: rgba(36, 46, 46, 0.401);
+    transform:skew(5deg);
+    text-align:center;
+    font-size:26px;
+    width:80%;
   }
 }
